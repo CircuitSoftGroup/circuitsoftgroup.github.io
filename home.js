@@ -1,10 +1,4 @@
 // Animation fix
-/* timeout = window.setTimeout(slideJumbo, 1000);
-function slideJumbo() {
-  $("#intro-jumbotron").css("-webkit-animation", "1s unveil");
-  $("#intro-jumbotron").css("animation", "1s unveil");
-  $("#intro-jumbotron").css("animation-delay", "2s");
-} */
 timeoutMarginCorrection = window.setTimeout(setCorrectMargin, 3000);
 function setCorrectMargin() {
   $("#main-intro").css("-webkit-animation", "1s unmargin");
