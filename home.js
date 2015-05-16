@@ -1,5 +1,5 @@
 // Animation fix
-timeoutMarginCorrection = window.setTimeout(setCorrectMargins, 3000);
+timeoutMarginCorrection = window.setTimeout(setCorrectStyles, 3000);
 function setCorrectStyles() {
   $("#main-intro").css("-webkit-animation", "1s unmargin");
   $("#main-intro").css("animation", "1s unmargin");
